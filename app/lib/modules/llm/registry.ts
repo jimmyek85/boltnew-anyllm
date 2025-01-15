@@ -13,6 +13,8 @@ import OpenAIProvider from './providers/openai';
 import PerplexityProvider from './providers/perplexity';
 import TogetherProvider from './providers/together';
 import XAIProvider from './providers/xai';
+import HyperbolicProvider from './providers/hyperbolic';
+import AmazonBedrockProvider from './providers/amazon-bedrock';
 
 export {
   AnthropicProvider,
@@ -21,6 +23,7 @@ export {
   GoogleProvider,
   GroqProvider,
   HuggingFaceProvider,
+  HyperbolicProvider,
   MistralProvider,
   OllamaProvider,
   OpenAIProvider,
@@ -30,4 +33,5 @@ export {
   XAIProvider,
   TogetherProvider,
   LMStudioProvider,
+  AmazonBedrockProvider,
 };
